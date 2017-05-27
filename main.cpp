@@ -12,8 +12,12 @@ int main(int argc, char** argv){
 	int soundStream_Input_DeviceId;
 	int soundStream_Output_DeviceId;
 	if(argc < 3){
+		/*
 		soundStream_Input_DeviceId = -1;
 		soundStream_Output_DeviceId = -1;
+		*/
+		soundStream_Input_DeviceId	= 2;
+		soundStream_Output_DeviceId	= 1;
 		
 		printf("*.exe InputId OutputId\n\n");
 		
